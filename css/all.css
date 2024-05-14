@@ -1,0 +1,229 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+section {
+  background-color: #eaf0ed;
+  margin: 20px 20px 22px 20px;
+}
+
+.content1 {
+  padding: 24px 28px;
+  border-radius: 6px;
+}
+.content1 ul {
+  display: flex;
+  justify-content: space-around;
+}
+.content1 ul li {
+  width: 386px;
+  display: flex;
+}
+.content1 ul li .logo img {
+  width: 54px;
+  height: 54px;
+  margin-right: 12px;
+}
+.content1 ul li .info h2 {
+  font-weight: 600;
+  line-height: 1.4;
+  color: #3f5d45;
+  margin-bottom: 16px;
+}
+.content1 ul li .info p {
+  font-size: 14px;
+  line-height: 1.4;
+  color: #3f5d45;
+  margin-bottom: 8px;
+}
+
+.content2 {
+  border-radius: 6px;
+}
+.content2 ul {
+  display: flex;
+  justify-content: space-around;
+}
+.content2 ul li {
+  width: 354px;
+  text-align: center;
+}
+.content2 ul li img {
+  width: 92px;
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+.content2 ul li h2 {
+  font-weight: 600;
+  line-height: 1.4;
+  color: #3f5d45;
+  margin-bottom: 12px;
+}
+.content2 ul li p {
+  font-size: 14px;
+  line-height: 1.4;
+  color: #3f5d45;
+  margin-bottom: 20px;
+}
+
+.content3 {
+  border-radius: 6px;
+  padding: 12px 28px;
+}
+.content3 ul li {
+  display: flex;
+  align-items: center;
+}
+.content3 ul li .logo img {
+  width: 135px;
+  margin-right: 12px;
+}
+.content3 ul li .info h2 {
+  font-weight: 600;
+  line-height: 1.4;
+  color: #3f5d45;
+  margin-bottom: 12px;
+}
+.content3 ul li .info p {
+  color: #3f5d45;
+  font-size: 14px;
+  line-height: 1.4;
+}
+.content3 ul .reverse {
+  flex-direction: row-reverse;
+}
+.content3 ul .reverse .logo img {
+  width: 135px;
+  margin-left: 12px;
+}/*# sourceMappingURL=all.css.map */
